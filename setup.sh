@@ -31,13 +31,13 @@ read git_config_user_email
 echo "What is your github username?"
 read username
 
-cd ~ && sudo apt update
+cd ~ && sudo apt update -y
 
 echo 'Installing build essential'
-sudo apt install build-essential
+sudo apt install build-essential -y
 
 echo 'Installing vim'
-sudo apt install vim
+sudo apt install vim -y
 
 echo 'Installing curl' 
 sudo apt install curl -y
@@ -107,10 +107,10 @@ sudo add-apt-repository ppa:peek-developers/stable -y
 sudo apt update && sudo apt install peek -y
 
 echo 'Installing OBS Studio'
-sudo apt install ffmpeg && sudo snap install obs-studio
+sudo apt install ffmpeg && sudo snap install obs-studio -y
 
 echo 'Updating and Cleaning Unnecessary Packages'
-sudo -- sh -c 'apt update; apt upgrade -y; apt full-upgrade -y; apt autoremove -y; apt autoclean -y'
+sudo -- sh -c 'apt update -y; apt upgrade -y; apt full-upgrade -y; apt autoremove -y; apt autoclean -y'
 clear
 
 # replace default zsh config
