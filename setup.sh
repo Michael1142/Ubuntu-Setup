@@ -22,10 +22,10 @@ echo "Welcome!"
 echo "Let's start setting up your system."
 echo ""
 
-echo "What is your git username?"
+echo "What is your global git username?"
 read git_config_user_name
 
-echo "What is your git email?"
+echo "What is your global git email?"
 read git_config_user_email
 
 echo "What is your github username?"
