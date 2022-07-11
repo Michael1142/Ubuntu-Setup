@@ -127,8 +127,9 @@ VIM_FILE=.vimrc
 does_file_exist ~/$VIM_FILE
 cp dotfiles/$VIM_FILE ~/$VIM_FILE
 
-echo 'Launching zsh.... Enjoy!'
-exec /bin/zsh
 
 echo 'Installing themes'
 exec bash -c  "$(wget -qO- https://git.io/vQgMr)"
+
+echo 'Launching zsh.... Enjoy!'
+exec /bin/zsh
