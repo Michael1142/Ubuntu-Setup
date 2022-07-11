@@ -131,6 +131,4 @@ echo 'Launching zsh.... Enjoy!'
 exec /bin/zsh
 
 echo 'Installing themese'
-bash -c  "$(wget -qO- https://git.io/vQgMr)" 
-
-
+exec bash -c  "$(wget -qO- https://git.io/vQgMr)" 
