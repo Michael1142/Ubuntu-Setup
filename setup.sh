@@ -130,5 +130,5 @@ cp dotfiles/$VIM_FILE ~/$VIM_FILE
 echo 'Launching zsh.... Enjoy!'
 exec /bin/zsh
 
-echo 'Installing themese'
-exec bash -c  "$(wget -qO- https://git.io/vQgMr)" 
+echo 'Installing themes'
+exec bash -c  "$(wget -qO- https://git.io/vQgMr)"
