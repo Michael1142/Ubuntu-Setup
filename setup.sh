@@ -78,6 +78,9 @@ pip3 install --user powerline-status
 echo 'Virtaulenvwrapper'
 pip3 install --user virtualenv virtualenvwrapper
 
+echo 'Youtube-dl'
+sudo pip install --upgrade youtube_dl
+
 echo 'Cobalt2 theme for zsh'
 does_dir_exist "Cobalt2-iterm" "git clone https://github.com/wesbos/Cobalt2-iterm.git"
 cd ./Cobalt2-iterm
